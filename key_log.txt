@@ -1,0 +1,151 @@
+2025-02-05 21:57:03,967: Special key pressed: Key.ctrl_r
+2025-02-05 21:57:04,127: Key pressed: None
+2025-02-05 21:57:04,267: Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "C:\Users\PRATIKSHA\Python\Python312\Lib\site-packages\pynput\_util\__init__.py", line 229, in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRATIKSHA\Python\Python312\Lib\site-packages\pynput\keyboard\_win32.py", line 319, in _process
+    self.on_release(key)
+  File "C:\Users\PRATIKSHA\Python\Python312\Lib\site-packages\pynput\_util\__init__.py", line 145, in inner
+    if f(*args) is False:
+       ^^^^^^^^
+  File "c:\Users\PRATIKSHA\Desktop\Prodigy Infotech\Task3.py", line 17, in on_release
+    if key == Key.esc:
+              ^^^
+NameError: name 'Key' is not defined. Did you mean: 'key'?
+2025-02-05 21:57:18,727: Key pressed: m
+2025-02-05 21:57:18,832: Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "C:\Users\PRATIKSHA\Python\Python312\Lib\site-packages\pynput\_util\__init__.py", line 229, in inner
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PRATIKSHA\Python\Python312\Lib\site-packages\pynput\keyboard\_win32.py", line 319, in _process
+    self.on_release(key)
+  File "C:\Users\PRATIKSHA\Python\Python312\Lib\site-packages\pynput\_util\__init__.py", line 145, in inner
+    if f(*args) is False:
+       ^^^^^^^^
+  File "c:\Users\PRATIKSHA\Desktop\Prodigy Infotech\Task3.py", line 17, in on_release
+    if key == key.esc:
+              ^^^^^^^
+AttributeError: 'KeyCode' object has no attribute 'esc'
+2025-02-05 21:58:10,109: Key pressed: j
+2025-02-05 21:58:12,187: Key pressed: j
+2025-02-05 21:58:12,187: Key pressed: k
+2025-02-05 21:58:12,327: Key pressed: b
+2025-02-05 21:58:12,407: Key pressed: k
+2025-02-05 21:58:12,436: Key pressed: j
+2025-02-05 21:58:12,531: Key pressed: b
+2025-02-05 21:58:12,587: Key pressed: k
+2025-02-05 21:58:13,667: Key pressed: n
+2025-02-05 21:58:13,927: Key pressed: n
+2025-02-05 21:58:14,107: Key pressed: n
+2025-02-05 21:58:14,727: Key pressed: d
+2025-02-05 21:58:14,937: Key pressed: d
+2025-02-05 21:58:15,117: Key pressed: d
+2025-02-05 21:58:15,292: Key pressed: d
+2025-02-05 21:58:15,457: Key pressed: d
+2025-02-05 21:58:15,627: Key pressed: d
+2025-02-05 21:58:21,767: Key pressed: j
+2025-02-05 21:58:21,949: Key pressed: j
+2025-02-05 21:58:22,137: Key pressed: h
+2025-02-05 21:58:22,297: Key pressed: j
+2025-02-05 21:58:22,427: Key pressed: h
+2025-02-05 21:58:22,580: Key pressed: h
+2025-02-05 21:58:22,741: Key pressed: h
+2025-02-05 21:58:30,191: Key pressed: q
+2025-02-05 21:58:30,695: Key pressed: q
+2025-02-05 21:58:30,727: Key pressed: q
+2025-02-05 21:58:30,758: Key pressed: q
+2025-02-05 21:58:30,790: Key pressed: q
+2025-02-05 21:58:30,823: Key pressed: q
+2025-02-05 21:58:30,857: Key pressed: q
+2025-02-05 21:58:30,887: Key pressed: q
+2025-02-05 21:58:30,919: Key pressed: q
+2025-02-05 21:58:30,951: Key pressed: q
+2025-02-05 21:58:30,988: Key pressed: q
+2025-02-05 21:58:31,017: Key pressed: q
+2025-02-05 21:58:31,047: Key pressed: q
+2025-02-05 21:58:31,082: Key pressed: q
+2025-02-05 21:58:31,117: Key pressed: q
+2025-02-05 21:58:31,147: Key pressed: q
+2025-02-05 21:58:31,177: Key pressed: q
+2025-02-05 21:58:33,286: Special key pressed: Key.esc
+2025-02-05 21:58:38,297: Key pressed: d
+2025-02-05 21:58:38,437: Key pressed: c
+2025-02-05 21:58:38,497: Key pressed: d
+2025-02-05 21:58:38,639: Key pressed: c
+2025-02-05 21:58:38,677: Key pressed: d
+2025-02-05 21:58:38,838: Key pressed: d
+2025-02-05 21:58:38,967: Key pressed: c
+2025-02-05 21:58:39,002: Key pressed: s
+2025-02-05 21:58:39,007: Key pressed: d
+2025-02-05 21:58:39,013: Key pressed: a
+2025-02-05 21:58:39,127: Key pressed: c
+2025-02-05 21:58:57,447: Key pressed: h
+2025-02-05 21:58:57,721: Key pressed: o
+2025-02-05 21:58:57,869: Key pressed: w
+2025-02-05 21:58:58,049: Special key pressed: Key.space
+2025-02-05 21:58:58,702: Key pressed: t
+2025-02-05 21:58:58,862: Key pressed: o
+2025-02-05 21:58:59,929: Key pressed: u
+2025-02-05 21:59:00,052: Key pressed: s
+2025-02-05 21:59:00,634: Special key pressed: Key.backspace
+2025-02-05 21:59:00,773: Special key pressed: Key.backspace
+2025-02-05 21:59:01,188: Special key pressed: Key.space
+2025-02-05 21:59:01,667: Key pressed: u
+2025-02-05 21:59:01,824: Key pressed: s
+2025-02-05 21:59:02,037: Key pressed: e
+2025-02-05 21:59:02,273: Special key pressed: Key.enter
+2025-02-05 22:00:13,260: Special key pressed: Key.delete
+2025-02-05 22:01:14,416: Key pressed: p
+2025-02-05 22:01:14,568: Key pressed: r
+2025-02-05 22:01:14,991: Key pressed: a
+2025-02-05 22:01:15,444: Key pressed: t
+2025-02-05 22:01:15,641: Key pressed: i
+2025-02-05 22:01:15,844: Key pressed: k
+2025-02-05 22:01:16,008: Key pressed: s
+2025-02-05 22:01:16,273: Key pressed: h
+2025-02-05 22:01:16,395: Key pressed: a
+2025-02-05 22:01:19,199: Special key pressed: Key.enter
+2025-02-05 22:01:19,644: Special key pressed: Key.esc
+2025-02-05 22:08:12,714: Key pressed: s
+2025-02-05 22:08:12,944: Key pressed: t
+2025-02-05 22:08:13,679: Key pressed: i
+2025-02-05 22:08:14,135: Key pressed: n
+2025-02-05 22:08:14,455: Key pressed: k
+2025-02-05 22:08:15,248: Key pressed: y
+2025-02-05 22:08:16,247: Key pressed: s
+2025-02-05 22:08:16,802: Key pressed: o
+2025-02-05 22:08:17,386: Key pressed: c
+2025-02-05 22:08:18,107: Key pressed: k
+2025-02-05 22:08:18,488: Key pressed: s
+2025-02-05 22:08:20,141: Key pressed: 6
+2025-02-05 22:08:20,630: Key pressed: 9
+2025-02-05 22:08:23,138: Special key pressed: Key.left
+2025-02-05 22:08:23,412: Special key pressed: Key.left
+2025-02-05 22:08:25,357: Special key pressed: Key.shift_r
+2025-02-05 22:08:25,825: Key pressed: _
+2025-02-05 22:08:27,442: Special key pressed: Key.left
+2025-02-05 22:08:27,949: Special key pressed: Key.left
+2025-02-05 22:08:27,981: Special key pressed: Key.left
+2025-02-05 22:08:28,014: Special key pressed: Key.left
+2025-02-05 22:08:28,047: Special key pressed: Key.left
+2025-02-05 22:08:28,072: Special key pressed: Key.left
+2025-02-05 22:08:29,050: Special key pressed: Key.shift_r
+2025-02-05 22:08:29,553: Special key pressed: Key.shift_r
+2025-02-05 22:08:29,585: Special key pressed: Key.shift_r
+2025-02-05 22:08:29,616: Key pressed: _
+2025-02-05 22:08:40,056: Special key pressed: Key.enter
+2025-02-05 22:08:41,946: Special key pressed: Key.esc
+2025-03-04 21:14:03,256: Key pressed: h
+2025-03-04 21:14:03,678: Key pressed: e
+2025-03-04 21:14:04,088: Key pressed: l
+2025-03-04 21:14:04,228: Key pressed: l
+2025-03-04 21:14:05,849: Special key pressed: Key.backspace
+2025-03-04 21:14:06,198: Special key pressed: Key.backspace
+2025-03-04 21:14:06,350: Special key pressed: Key.backspace
+2025-03-04 21:14:06,518: Special key pressed: Key.backspace
+2025-03-04 21:15:03,847: Special key pressed: Key.enter
+2025-03-04 21:15:04,547: Special key pressed: Key.enter
+2025-03-04 21:15:04,717: Special key pressed: Key.enter
